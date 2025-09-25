@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
     res.send('¡Hola desde CI/CD!');
 })
 
-app.listen(port, () => {
+app.(port, () => {
     console.log('App escuchando en http://localhost:${port}');
 })
